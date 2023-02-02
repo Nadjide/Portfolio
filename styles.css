@@ -23,7 +23,7 @@
 
 html{
     font-size: 62.5%;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 html::-webkit-scrollbar{
     width: 1.4rem;
@@ -34,6 +34,7 @@ html::-webkit-scrollbar-thumb{
 body{
     background: #111;
     overflow-x:hidden ;
+    padding-left: 35rem;
 }
 header{
     position: fixed;
@@ -99,4 +100,44 @@ header .navbar ul li a:hover{
     padding: 1rem 1.5rem;
     z-index: 1000;
     display: none;
+}
+
+
+/* media queries */
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:991px){
+    header{
+        left: -120%;
+    }
+    #menu{
+        display: block;
+    }
+    header.toggle{
+        left: 0%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media(max-width:400px){
+    header{
+        width: 100vw;
+    }
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding: 0 15rem;
+
 }
