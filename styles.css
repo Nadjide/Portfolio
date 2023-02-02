@@ -291,3 +291,10 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box:hover img{
     transform: scale(1.1);
 }
+
+.top{
+    position: fixed;
+    bottom: 7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
