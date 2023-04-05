@@ -147,22 +147,22 @@ header .navbar ul li a:hover{
         font-size: 55%;
     }
     .home{
-        padding: 1rem 4rem;
+        padding:1rem 4rem;
     }
 }
 
 @media(max-width:991px){
     header{
-        left: -120%;
+        left:-120%;
     }
     #menu{
-        display: block;
+        display:block;
     }
     header.toggle{
-        left: 0%;
+        left:0%;
     }
     body{
-        padding: 0;
+        padding:0;
     }
 }
 
@@ -193,7 +193,7 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding: 0 15rem;
+    padding:0 15rem;
 }
 .home h3{
     font-size: 2.5rem;
